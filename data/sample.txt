@@ -1,0 +1,13 @@
+Document Intelligence Test
+This is a sample TXT document to test the document-intelligence loader.
+It contains multiple paragraphs, headings, and bullet points.
+
+Features:
+- Paragraph extraction
+- Heading recognition
+- Bullet points parsing
+- Works with multiple documents
+
+Conclusion
+This TXT document is designed to test your loader.
+It should be read correctly by the extract_text function.
