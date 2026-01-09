@@ -5,11 +5,11 @@ class Document:
         self.name = name
         self.text = text
         self.chunks: List[str] = []
-        self.chunksVector = []
+        self.vectors = []
         
     def chunkText(self, chunkSize: int = 500):
         words = self.text.split()
         for i in range(0, len(words), chunkSize):
             self.chunks.append(" ".join(words[i:i + chunkSize]))
-    def setChunksVector(self, vector):
-        self.chunksVector = vector
+    def setVectors(self, vector):
+        self.vectors = vector

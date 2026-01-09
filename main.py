@@ -3,7 +3,12 @@ from src.handleQuery import queryHandler
 
 def main():
     while True:
-        cmd = input("Usage: Enter a command (add or query or exit)-> ")
+        try:
+            cmd = input("Usage: Enter a command (add or query or exit)-> ")
+        except EOFError:
+            exit()
+        except KeyboardInterrupt:
+            exit()
         if cmd == "add":
             addHandler()
         elif cmd == "query":

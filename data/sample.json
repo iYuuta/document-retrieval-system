@@ -1,0 +1,9 @@
+{
+  "project": "Document Retrieval System",
+  "version": 3.2,
+  "contributors": [
+    {"name": "Yuuta", "role": "Developer"},
+    {"name": "Jane", "role": "Manager"}
+  ],
+  "contact": "info@example.com"
+}
