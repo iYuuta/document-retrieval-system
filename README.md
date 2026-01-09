@@ -60,7 +60,7 @@ A Python-based RAG (Retrieval Augmented Generation) application that stores text
 > **Note:**
 > Be sure to set the `OLLAMA_PORT` value in your `.env` file to match the port your Ollama server is using.
 
-6. **Set up and launch PostgreSQL with pgvector using Docker:**
+6. **Set up and launch PostgreSQL using Docker:**
    - Build the image:
      ```sh
      docker build -t rag-db:latest db/.
