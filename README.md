@@ -33,16 +33,21 @@ A Python-based RAG (Retrieval Augmented Generation) application that stores text
    cd document-retrieval-system
    ```
 
-2. **Install Python dependencies:**
+2. **Create directory for the db:**
+   ```sh
+   mkdir db/pgData
+   ```
+
+3. **Install Python dependencies:**
    ```sh
    pip install -r requirements.txt
    ```
 
-3. **Set up [Ollama](https://ollama.com/):**
+4. **Set up [Ollama](https://ollama.com/):**
    - Install and run Ollama with your desired model (such as llama2).
    - Make sure Ollama is running and listening on a port.
 
-4. **Set environment variables:**  
+5. **Set environment variables:**  
    Create a `.env` file with the following content:
    ```
     OLLAMA_PORT=11434
