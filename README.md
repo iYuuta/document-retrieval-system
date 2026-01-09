@@ -44,7 +44,7 @@ A Python-based RAG (Retrieval Augmented Generation) application that stores text
    ```
 
 4. **Set up [Ollama](https://ollama.com/):**
-   - Install and run Ollama with your desired model (such as llama2).
+   - Install and run Ollama with your desired model (such as llama3).
    - Make sure Ollama is running and listening on a port.
 
 5. **Set environment variables:**  
@@ -99,4 +99,4 @@ enter a question: ask it a question and based on the context provided through th
 ## Contact
 
 - Author: [Youssef ayedder](mailto:youssefayedder@email.com)
-- Project: [github.com/iYuuta/document-retrieval-system](https://github.com/iYuuta/document-retrieval-system)
+- Linkedin: [LinkedIn profile](https://www.linkedin.com/in/youssefayedder)
